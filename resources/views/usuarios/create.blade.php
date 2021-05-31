@@ -4,7 +4,7 @@
 
 @section('content_header')
 <div class="p-3 mb-2 bg-success text-white ">
-  <h1>Registo De Propietarios</h1>
+  <h1>Registo De usuario</h1>
 </div>
 @stop
 
@@ -30,7 +30,7 @@
     </div>
     <a  class="btn btn-outline-secondary"href="/usuarios">Cancelar</a>
   <button type="submit" class="btn btn-primary">Guardar</button>
-  <img src="https://pixabay.com/get/g7a3ec9bd120b914d61a630c332d87cbfc3129382beadc8abb1a4745a51f43b28d489630a4caef7ca0d27a677c0955897_1920.png" class="img-fluid" alt="Responsive image">
+  <img src="https://pixabay.com/get/g7e9cfe82eb9fa0fb3360554e106f684f528e89236728a4ddf71875bc23cf8999d1446a258f5746194d973eed219293c5_1920.png" class="img-fluid" alt="Responsive image">
 </form>
 @stop
 

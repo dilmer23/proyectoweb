@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <img src="{{ asset('https://pixabay.com/get/g04a2d3b0a21b5bad87fb5199859e3a8901d268c893c09525731b9e7d1bea6bdb9eb5c93f0d520e104cca3c4a41f6bdcc_640.png') }}" />
+            <img src="{{ asset('https://pixabay.com/get/g8083891981a4fd30e1f66eb5baa270cd3b4619ec10a28a4facf370bbb4b412010fe188022504759b1e886bca10c692f3_640.png') }}" />
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
