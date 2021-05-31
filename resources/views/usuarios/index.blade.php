@@ -9,7 +9,7 @@
 @section('content')
 <a href="usuarios/create" class="btn btn-success btn-lg float-right">Registrar propietarios</a><br><br><br>
 
-<table id="usuario" class="table table table-hover" class="table table-striped" style="width:100%">
+<table id="user" class="table table table-hover" class="table table-striped" style="width:100%">
     <thead>
       <tr>
         <th scope="col">Nombre Del usuario</th>
@@ -22,7 +22,6 @@
         
         @foreach ($usuarios as $usuario)
         <tr>
-            <td>{{$usuario->id}}</td>
             <td>{{$usuario->nombre}}</td>
             <td>{{$usuario->fechaNacimiento}}</td>
             <td>{{$usuario->sexo}}</td>
@@ -94,7 +93,7 @@
     </script>
     <script>
       $(document).ready(function() {
-              $('#propietario').DataTable( {
+              $('#user').DataTable( {
                   "language": {
                       "url": "//cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"
                   },

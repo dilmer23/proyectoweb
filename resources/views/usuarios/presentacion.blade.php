@@ -21,7 +21,7 @@
     <div class="col-sm-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Consulta de Uusuarios</h5>
+          <h5 class="card-title">Consulta de Usuarios</h5>
           <p class="card-text">Aqui puedes consultar los usuarios registrados.</p>
           <a href="usuarios" class="btn-lg btn btn-danger">Consultar Uusuarios</a>
         </div>
